@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Margonda</title>
+    <!-- Bootstrap -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/main.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="shortcut icon" href="../img/CodeMargonda-Circle.png">
+    <style>
+    #map {
+        width: 300px;
+        height: 300px;
+    }
+    </style>
+    <script>
+    function ourMap() {
+        var mapCanvas = document.getElementById("map");
+        var mapOptions = {
+            center: new google.maps.LatLng(-6.368171, 106.833538),
+            zoom: 18
+        };
+
+        var map = new google.maps.Map(mapCanvas, mapOptions);
+
+        var map = new google.maps.Marker({
+            position: new google.maps.LatLng(-6.368171, 106.833538),
+            map: map
+        });
+    }
+    </script>
+</head>
+
+<body onload="ourMap()">
+    <div id="web-content">
+        <div class="navbar">
+            <div class="container">
+                <div class="navbar-header">
+                    <button class="navbar-toggle" data-toggle="collapse" data-target=".myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="sp" href="#web-content"><img class="img-responsive navbar-brand" src="../img/codemargonda-logo-small.png" alt="CodeMargonda"></a>
+                </div>
+                <div class="collapse navbar-collapse myNavbar">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a class="sp" href="../index.html">BERANDA</a></li>
+                        <li><a class="sp" href="tentang-kami.html">TENTANG KAMI</a></li>
+                        <li><a class="sp" href="#">ANGGOTA</a></li>
+                        <li><a class="sp" href="#">PROGRAM</a></li>
+                        <li class="sp dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">CCC
+                            <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a class="sp" href="#">Android-CCC</a></li>
+                                <li><a class="sp" href="#">Web-CCC</a></li>
+                            </ul>
+                        </li>
+                        <li><a class="sp" href="#">ACARA</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="tentang-code">
+                <div class="row">
+                    <div class="tentang-code-header">
+                        <div class="col-sm-2 col-xs-12">
+                            <h3 class="text-center"><b>TENTANG CODE MARGONDA</b></h3>
+                            <hr>
+                            <a href="#"><h6 class="tentang-code-daftar"><p></p><u><b>DAFTAR MEMBER</b></u></h6></a>
+                        </div>
+                    </div>
+                    <div class="tentang-code-content">
+                        <div class="col-sm-10 col-xs-12">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                            <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="alamat-code" class="alamat-code">
+        <div class="container">
+            <div class="col-sm-8 col-xs-12">
+                <h4><b>LOKASI</b></h4>
+                <h4><b>Ruko Veneta Lantai 2</b></h4>
+                <p>Jalan Margonda Raya no. 349, Kemiri Muka, Beji, Kota Depok, Jawa Barat 16424, Indonesia</p>
+                <div class="contact-us">
+                    <h4>Mail : codemargonda@gmail.com</h4>
+                    <h4>Telp : +62 21 22710912</h4>
+                </div>
+            </div>
+            <div class="col-sm-4 col-xs-12">
+                <div id="map" class="alamat-code">
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-2  col-xs-6">
+                    <h5>
+                        <p><b>BERANDA</b></p>
+                    </h5>
+                    <ul class="footer-list">
+                        <li><a class="ps" href="#">Code Margonda</a></li>
+                        <li><a class="ps" href="#">Coworking Space</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-2 col-xs-6">
+                    <h5>
+                        <p><b>TENTANG KAMI</b></p>
+                    </h5>
+                    <ul class="footer-list">
+                        <li><a class="ps" href="#">Tentang Code</a></li>
+                        <li><a class="ps" href="#">Alamat</a></li>
+                        <li><a class="ps" href="#">Kontak</a></li>
+                        <li><a class="ps" href="#">Partner</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-2  col-xs-6">
+                    <h5>
+                        <p><b>Anggota</b></p>
+                    </h5>
+                    <ul class="footer-list">
+                        <li><a class="ps" href="#">Operasional</a></li>
+                        <li><a class="ps" href="#">Fasilitas</a></li>
+                        <li><a class="ps" href="#">Harga</a></li>
+                        <li><a class="ps" href="#">Cara Daftar</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-2  col-xs-6">
+                    <h5>
+                        <p><b>Program</b></p>
+                    </h5>
+                    <ul class="footer-list">
+                        <li><a class="ps" href="#">Margodev+ Seminar</a></li>
+                        <li><a class="ps" href="#">Margodev+ Workshop</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-2 col-xs-6">
+                    <h5>
+                        <p><b>CCC</b></p>
+                    </h5>
+                    <ul class="footer-list">
+                        <li><a class="ps" href="#">Apa itu CCC?</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-2 col-xs-6">
+                    <h5>
+                        <p><b>Acara</b></p>
+                    </h5>
+                    <ul class="footer-list">
+                        <li><a class="ps" href="#">Ruang Pertemuan</a></li>
+                        <li><a class="ps" href="#">Kalender</a></li>
+                        <li><a class="ps" href="#">Galeri</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- MAPS -->
+    <script src="https://maps.googleapis.com/maps/api/js"></script>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="../js/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/scrollpage.js"></script>
+    <script src="../js/main.js"></script>
+</body>
+
+</html>
