@@ -1,0 +1,229 @@
+@font-face {
+  font-family: "Montserrat-ExtraBold";
+  src: url(../public/fonts/Montserrat-ExtraBold.otf);
+}
+
+@font-face {
+  font-family: "Raleway-Regular";
+  src: url(../public/fonts/Raleway-Regular.ttf);
+}
+
+
+  *{
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat-ExtraBold", sans-serif;
+  }
+
+p{
+  font-size: 16px;
+}
+    h3, h4,
+    h6, p, a{
+      color: white;
+      font-family: "Raleway-Regular", sans-serif;
+    }
+
+    hr{
+  		border: 3px  #96281B solid;
+  	}
+
+  .parallax,
+  .social-media,
+  .coworking-space,
+  .partner-code{
+    margin-bottom: 10%;
+  }
+
+  .navbar{
+    background-color : transparent;
+  }
+
+      .icon-bar {
+          margin-top: 5px;
+          background-color: #36434d;
+      }
+      .navbar-toggle{
+        background-color: rgba(248, 247, 216,.9);
+
+      }
+
+      .navbar-collapse{
+        background-color: rgba(255,255,255,0.9);
+      }
+
+      .nav > li > a{
+        color: black;
+      }
+
+  .parallax {
+      height: 500px;
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+      .layer {
+          background-color: rgba(248, 247, 216, .3);
+          position: absolute;
+          top: 0;
+          left: 0;
+          margin: auto;
+          width: 100%;
+          height: 500px;
+          color: white;
+      }
+          .layer img{
+              width: 90%;
+              margin: 5%;
+          }
+          .layer-component{
+              margin: 150px 0;
+              padding: 6px;
+          }
+
+  .black,
+  .ccc-web-component h3,
+  .ccc-web-component p{
+    color: black;
+  }
+  .red{
+    background-color: rgb(200, 30, 30);
+  }
+
+      .sos-med{
+        border: 3px #95A5A6 solid;
+        margin: 5%;
+        padding: 7px;
+        border-radius: 50px;
+        border-style: dotted solid inset;
+      }
+
+  .coworking-space{
+    height: 500px;
+    overflow: hidden;
+    padding: 10% 0;
+    position: relative;
+  }
+
+      .square{
+        height: 350px;
+        width: 120%;
+        margin: 20% -10%;
+        color: #fff;
+        transform: rotate(-10deg);
+      }
+
+      .square h1{
+        color: rgba(248, 247, 216, .1);
+        font-family: "Montserrat-ExtraBold", sans-serif;
+        position: absolute;
+        margin: 25% -10%;
+        font-size: 180px;
+        font-weight: 900;
+        transform: rotate(10deg);
+      }
+
+      .coworking-content{
+        position: absolute;
+        top: 0%;
+      }
+
+      .img-coworking,
+      .img-logo{
+          display: block;
+          margin: auto;
+          width: 50%;
+          margin: 5% auto;
+      }
+
+      .btn-default{
+          border: 2px solid white;
+          color: white;
+      }
+
+      .tentang-code{
+      		padding: 15% 0 15% 0;
+      	}
+
+      		.tentang-code-daftar{
+      			color: #96281B;
+      			text-align: center;
+      		}
+
+      	.alamat-code{
+      		  background: url("../public/assets/Tentang-Kami.jpg");
+      	    background-size: 100% 100%;
+          	background-repeat: no-repeat;
+          	height: auto;
+          	padding: 16% 0 16%;
+      	}
+
+      		.contact-us{
+      			padding-top: 12%;
+      		}
+
+  .btn-lanjut-ccc{
+        background-color: rgba(248, 247, 216, .4);
+        border: 2px solid white;
+        color: white;
+  }
+
+  .btn-daftar-ccc{
+        background-color: rgb(208, 49, 33);
+        margin-right: 10px;
+        color: white;
+  }
+
+  .android-ccc,
+  .web-ccc{
+    height: 2%;
+    padding: 5%;
+    margin: 2%;
+    margin-top: 30%;
+    background-color: rgb(208, 49, 33);
+  }
+    .web-ccc{
+      margin-top: 30%;
+      height: 2%;
+      padding: 5%;
+      background-color: rgb(232, 159, 49);
+    }
+    .img-ccc{
+      position: relative;
+      margin-top: -100px;
+      width: 50%;
+      background-color: white;
+      padding: 10%;
+      border-radius: 50%;
+    }
+  footer{
+      width: 100%;
+      height: 100%;
+      padding: 50px 0 50px 0;
+      background-color: rgb(200, 30, 30);
+      line-height: 1.75;
+    }
+
+      .footer-list a{
+        color: white;
+      }
+
+      footer ul li,
+      .parallax ul li{
+        list-style-type: none;
+      }
+
+      footer ul li a{
+        font-size: 13px;
+      }
+
+      footer > img{
+        color: black;
+      }
+      #map {
+        display: block;
+        margin: 5% auto;
+        width: 250px;
+        height: 250px;
+      }
