@@ -1,0 +1,56 @@
+  .ccc-web-component h3,
+  .ccc-web-component p{
+    color: black;
+    text-align: center;
+  }
+
+.btn-lanjut-ccc{
+      background-color: rgba(248, 247, 216, .4);
+      border: 2px solid white;
+      color: white;
+}
+
+.btn-daftar-ccc{
+      background-color: rgb(208, 49, 33);
+      margin-right: 10px;
+      color: white;
+}
+
+.android-ccc{
+  height: 2%;
+  padding: 5%;
+  margin: 2%;
+  background-color: rgb(208, 49, 33);
+}
+  .web-ccc{
+    height: 2%;
+    padding: 5%;
+    margin: 2%;
+    background-color: rgb(232, 159, 49);
+  }
+  .img-ccc{
+    position: relative;
+    width: 40%;
+    background-color: white;
+    padding: 10%;
+    border-radius: 50%;
+    display: block;
+    top:-100;
+    margin: auto;
+  }
+
+.pengajar-ccc{
+  padding: 5%;
+  background-color: rgb(44, 44, 45);
+}
+  .pengajar-ccc h3,
+  .pengajar-ccc p,
+  .jadwal-ccc h3{
+    color: white;
+    text-align: center;
+  }
+
+.jadwal-ccc{
+  padding: 4%;
+  background-color: rgb(208, 49, 33);
+}

@@ -1,19 +1,34 @@
 import React, { Component } from 'react';
 import './App.css';
-import {Navbar} from './components/navbar.js';
-import {Banner} from './components/banner.js';
-import {Content} from './components/imagecirle.js';
-import {Footer} from './components/footer.js';
+import {Navbar} from './components/navbar/navbar.js';
+import {Banner} from './components/banner/banner.js';
+import {ImageCircle} from './components/imagecircle/imagecircle.js';
+import {Partner} from './components/partner/partner.js';
+import {Footer} from './components/footer/footer.js';
 
 const contentBanner = [{
                           detail: "HELLO, NETWORKING COMMUNITY"
                       }]
 
-const contentdetail = {
+const contentdetail = [{
                           image: "assets/Tentang Kami-Image(circle)-Code Margonda.png",
                           title: "COWORKING SPACE",
                           textLine: "Coworking space adalah tempat bekerja untuk semua orang mulai dari profesional sampai mereka yang baru ingin belajar. Disini semua orang diharapkan untuk dapat bekerja sama dalam bertukar pikiran dan berinteraksi untuk mengembangkan ide tanpa ada batasan."
-                    }
+                        }]
+
+const imagePartner = [{
+                        image: "assets/Logo-Partner-Bank-BCA.png",
+                        alt: "Logo Partner Bank BCA"
+                      },
+                      {
+                        image: "assets/Logo-Partner-Bank-Indonesia.png",
+                        alt: "Logo Partner Bank Indonesia"
+                      },
+                      {
+                        image: "assets/Logo-Partner-Coworking-Indonesia.png",
+                        alt: "Logo Partner Coworking Indonesia"
+                      }]
+
 class App extends Component {
   render() {
     return (
@@ -29,7 +44,7 @@ class App extends Component {
                             <p className="black">Code Margonda adalah salah satu coworking space yang ada di Indonesia tepatnya di Depok. Dengan fokus dibidang teknologi. Kami bermimpi untuk menghasilkan developer terbaik di Indonesia. Maka dari itu, kami memiliki komunitas teknologi yang bernama <b>Margodev+</b></p>
                         </div>
                     </div>
-                    <div classNameName="social-media text-center">
+                    <div className="social-media text-center">
                         <div className="col-xs-12">
                             <h3><b>FOLLOW OUR SOCIAL MEDIA!</b></h3>
                             <a href="https://m.facebook.com/codemargonda/">
@@ -46,7 +61,7 @@ class App extends Component {
             <h1>CODE</h1>
           </div>
             <div className="coworking-content container">
-                <Content contentdetail={contentdetail}></Content>
+                <ImageCircle contentdetail={contentdetail}></ImageCircle>
                 <button type="button" className="btn btn-default red">DAFTAR MEMBER</button>
             </div>
         </div>
@@ -62,7 +77,7 @@ class App extends Component {
                     </div>
                 </div>
                 <div className="col-xs-12">
-                    <div id="map" class="alamat-code">
+                    <div id="map" className="alamat-code">
                     </div>
                 </div>
             </div>

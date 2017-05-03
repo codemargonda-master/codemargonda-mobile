@@ -1,0 +1,26 @@
+.parallax {
+    height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 10%;
+}
+    .layer {
+        background-color: rgba(248, 247, 216, .3);
+        position: absolute;
+        top: 0;
+        left: 0;
+        margin: auto;
+        width: 100%;
+        height: 500px;
+        color: white;
+    }
+        .layer img{
+            width: 90%;
+            margin: 5%;
+        }
+        .layer-component{
+            margin: 150px 0;
+            padding: 6px;
+        }

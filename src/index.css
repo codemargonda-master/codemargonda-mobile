@@ -1,5 +1,25 @@
-body {
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
+@font-face {
+  font-family: "Montserrat-ExtraBold";
+  src: url(../public/fonts/Montserrat-ExtraBold.otf);
 }
+
+@font-face {
+  font-family: "Raleway-Regular";
+  src: url(../public/fonts/Raleway-Regular.ttf);
+}
+
+
+  *{
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat-ExtraBold", sans-serif;
+  }
+
+p{
+  font-size: 16px;
+}
+    h3, h4,
+    h6, p, a{
+      color: white;
+      font-family: "Raleway-Regular", sans-serif;
+    }

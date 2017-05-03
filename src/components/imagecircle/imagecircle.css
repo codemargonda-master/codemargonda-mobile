@@ -1,0 +1,10 @@
+.img-logo{
+    display: block;
+    width: 40%;
+    margin: 5% auto;
+}
+
+.row ul li{
+  text-decoration: none;
+  display: inline-block;
+}
