@@ -4,7 +4,7 @@ import './navbar.css';
 const menu = [{
                 key: 1,
                 title: "Beranda",
-                url:"./App.js"
+                url:"./"
               },
               {
                 key: 2,

@@ -47,21 +47,6 @@ const contentdetail = {
                           title: "Jefri Yushendri",
                           textLine: "Web Developer"
                         }]
-                        // "kelas":
-                        // [
-                        //   "android":
-                        //   [{
-                        //     image: "assets/android.png",
-                        //     title: "Android Development",
-                        //     textLine: "Memperlajari cara membuat aplikasi Android dengan menggunakan android studio"
-                        //   }],
-                        //   "web":
-                        //   [{
-                        //     image: "assets/hml5.png",
-                        //     title: "Web Development",
-                        //     textLine: "Memperlajari cara membuat website dengan teknologi CI dan Laravel"
-                        //   }]
-                        // ]
                       }
 
 const contentkalender = [{

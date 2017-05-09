@@ -1,0 +1,19 @@
+
+.alamat-code{
+    background: black;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: auto;
+    padding: 16% 0 16%;
+}
+
+  .contact-us{
+    padding-top: 12%;
+  }
+
+#map {
+display: block;
+margin: 5% auto;
+width: 250px;
+height: 250px;
+}

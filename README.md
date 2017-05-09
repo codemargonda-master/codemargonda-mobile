@@ -12,6 +12,6 @@ You can also:
 
 CodeMargonda Mobile uses a number of open source projects to work properly:
 
-* [Atom] - awesome web-based text editor
-* [Materialize] - responsive framework css
-* [jQuery] - javascript library
+* [Atom] - Awesome web-based text editor
+* [Bootstrap] - The most popular css framework for developing responsive and mobile web site
+* [ReactJS] - Javascript library developed for UI designing.

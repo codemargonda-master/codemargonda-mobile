@@ -1,0 +1,18 @@
+.partner-code{
+  margin-top:-25%;
+  padding-top: 25%;
+  margin-bottom: -3%;
+  background-color: rgb(191, 12, 12);
+}
+
+  .partner-code ul li{
+    text-decoration: none;
+    display: inline-block;
+  }
+
+  .img-partner-cm, .img-partner{
+    position: relative;
+    width: 40%;
+    display: block;
+    margin: 5% auto;
+  }

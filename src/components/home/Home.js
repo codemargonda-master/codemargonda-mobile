@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
-import './App.css';
-import {Navbar} from './components/navbar/navbar.js';
-import {Banner} from './components/banner/banner.js';
-import {ImageCircle} from './components/imagecircle/imagecircle.js';
-import {Partner} from './components/partner/partner.js';
-import {Footer} from './components/footer/footer.js';
+import './Home.css';
+import {Navbar} from '../navbar/navbar.js';
+import {Banner} from '../banner/banner.js';
+import {ImageCircle} from '../imagecircle/imagecircle.js';
+import {Alamat} from '../alamat/alamat.js';
+import {Partner} from '../partner/partner.js';
+import {Footer} from '../footer/footer.js';
 
 const contentBanner = [{
                           detail: "HELLO, NETWORKING COMMUNITY"
@@ -17,19 +18,19 @@ const contentdetail = [{
                         }]
 
 const imagePartner = [{
-                        image: "assets/Logo-Partner-Bank-BCA.png",
+                        image: "assets/Logo-Partner-bca.png",
                         alt: "Logo Partner Bank BCA"
                       },
                       {
-                        image: "assets/Logo-Partner-Bank-Indonesia.png",
+                        image: "assets/Logo-Partner-bi.png",
                         alt: "Logo Partner Bank Indonesia"
                       },
                       {
-                        image: "assets/Logo-Partner-Coworking-Indonesia.png",
+                        image: "assets/Logo-Partner-Co-Indonesia.png",
                         alt: "Logo Partner Coworking Indonesia"
                       }]
 
-class App extends Component {
+class Home extends Component {
   render() {
     return (
       <div>
@@ -65,27 +66,12 @@ class App extends Component {
                 <button type="button" className="btn btn-default red">DAFTAR MEMBER</button>
             </div>
         </div>
-        <div className="alamat-code text-size">
-            <div className="container">
-                <div className="col-xs-12">
-                    <h4><b>LOKASI</b></h4>
-                    <h4><b>Ruko Veneta Lantai 2</b></h4>
-                    <p>Jalan Margonda Raya no. 349, Kemiri Muka, Beji, Kota Depok, Jawa Barat 16424, Indonesia</p>
-                    <div className="contact-us">
-                        <h4>Mail : codemargonda@gmail.com</h4>
-                        <h4>Telp : +62 21 22710912</h4>
-                    </div>
-                </div>
-                <div className="col-xs-12">
-                    <div id="map" className="alamat-code">
-                    </div>
-                </div>
-            </div>
-        </div>
+        <Alamat></Alamat>
+        <Partner imagePartner = {imagePartner}></Partner>
         <Footer></Footer>
       </div>
     );
   }
 }
 
-export default App;
+export default Home;
