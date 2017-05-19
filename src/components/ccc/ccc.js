@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
-import './ccc-system.css';
-import {Navbar} from './components/navbar/navbar.js';
-import {Banner} from './components/banner/banner.js';
-import {ImageCircle} from './components/imagecircle/imagecircle.js';
-import {Kalender} from './components/kalender/kalender.js';
-import {Footer} from './components/footer/footer.js';
+import './ccc.css';
+import Navbar from '../navbar/navbar.js';
+import Banner from '../banner/banner.js';
+import ImageCircle from '../imagecircle/imagecircle.js';
+import Kalender from '../kalender/kalender.js';
+import Footer from '../footer/footer.js';
 
 const contentBanner=[{
                         detail: "CODE COURSE CAMP"
@@ -92,7 +92,7 @@ const contentkalender = [{
                           akhir: "02 Mei 2017",
                           status: "Buka"
                         }]
-class App extends Component{
+class Ccc extends Component{
   render() {
     return (
       <div className="ccc-web-component">
@@ -144,4 +144,4 @@ class App extends Component{
   }
 }
 
-export default App;
+export default Ccc;

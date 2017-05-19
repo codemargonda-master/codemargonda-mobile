@@ -19,7 +19,7 @@ const menu = [{
               },
               {
                 title: "CCC",
-                tourl: "#"
+                tourl: "/ccc"
               },
               {
                 title: "ACARA",
