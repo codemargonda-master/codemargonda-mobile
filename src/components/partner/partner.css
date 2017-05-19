@@ -8,6 +8,7 @@
   .partner-code ul li{
     text-decoration: none;
     display: inline-block;
+    font-style: bold;
   }
 
   .img-partner-cm, .img-partner{
@@ -15,4 +16,19 @@
     width: 40%;
     display: block;
     margin: 5% auto;
+  }
+
+@media screen and (min-width: 768px) {
+    .partner-code{
+      margin-top:-18%;
+      padding-top: 18%;
+      margin-bottom: -3%;
+      background-color: rgb(191, 12, 12);
+    }
+    .img-partner-cm, .img-partner{
+      position: relative;
+      width: 25%;
+      display: block;
+      margin: 5% auto;
+    }
   }

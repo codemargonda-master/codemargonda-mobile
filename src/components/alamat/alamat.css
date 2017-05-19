@@ -1,6 +1,4 @@
-
 .alamat-code{
-    background: black;
     background-size: 100% 100%;
     background-repeat: no-repeat;
     height: auto;
@@ -16,4 +14,13 @@ display: block;
 margin: 5% auto;
 width: 250px;
 height: 250px;
+}
+
+@media screen and (min-width: 768px) {
+  #map {
+  display: block;
+  margin: 5% auto;
+  width: 350px;
+  height: 350px;
+  }
 }

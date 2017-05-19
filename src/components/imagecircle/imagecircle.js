@@ -1,7 +1,8 @@
 import React from 'react';
 import './imagecircle.css';
 
-const ImageCircle = ({contentdetail}) =>
+const ImageCircle = ({contentdetail}) =>{
+  return(
     <div className="imageclass container text-center">
       <div className="col-xs-12">
         <ul>
@@ -19,4 +20,7 @@ const ImageCircle = ({contentdetail}) =>
        </ul>
       </div>
     </div>
-export {ImageCircle};
+  );
+}
+
+export default ImageCircle;

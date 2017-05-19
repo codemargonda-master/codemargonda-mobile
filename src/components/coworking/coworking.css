@@ -1,0 +1,51 @@
+.coworking-space{
+  height: auto;
+  overflow: hidden;
+  padding: 5% 0;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+    .square{
+      height: 350px;
+      width: 120%;
+      margin: 25% -10%;
+      transform: rotate(-10deg);
+    }
+
+    .square h1{
+      color: rgba(248, 247, 216, .1);
+      font-family: "Montserrat-ExtraBold";
+      position: absolute;
+      display: block;
+      margin: 17% auto;
+      font-size: 170px;
+      font-weight: 900;
+      transform: rotate(10deg);
+    }
+
+    .coworking-content{
+      position: absolute;
+      top: 0%;
+    }
+
+    .btn-default{
+        border: 2px solid white;
+        color: white;
+    }
+
+
+    @media screen and (min-width: 768px) {
+      .square{
+        margin: 10% -10%;
+      }
+
+      .square h1{
+        color: rgba(248, 247, 216, .1);
+        font-family: "Montserrat-ExtraBold", sans-serif;
+        position: relative;
+        display: block;
+        margin: 5% auto;
+        font-size: 280px;
+      }
+    }

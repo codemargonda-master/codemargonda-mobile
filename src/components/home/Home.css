@@ -1,58 +1,9 @@
-.social-media,
-.coworking-space{
-  margin-bottom: 10%;
-}
-
-
 .black{
   color: black;
 }
 .red{
   background-color: rgb(200, 30, 30);
 }
-
-    .sos-med{
-      border: 3px #95A5A6 solid;
-      margin: 5%;
-      padding: 7px;
-      border-radius: 50px;
-      border-style: dotted solid inset;
-    }
-
-.coworking-space{
-  height: 500px;
-  overflow: hidden;
-  padding: 10% 0;
-  position: relative;
-}
-
-    .square{
-      height: 350px;
-      width: 120%;
-      margin: 15% -10%;
-      color: #fff;
-      transform: rotate(-10deg);
-    }
-
-    .square h1{
-      color: rgba(248, 247, 216, .1);
-      font-family: "Montserrat-ExtraBold", sans-serif;
-      position: absolute;
-      margin: 25% -10%;
-      font-size: 180px;
-      font-weight: 900;
-      transform: rotate(10deg);
-    }
-
-    .coworking-content{
-      position: absolute;
-      top: 0%;
-    }
-
-    .btn-default{
-        border: 2px solid white;
-        color: white;
-    }
 
     .tentang-code{
         padding: 15% 0 15% 0;
